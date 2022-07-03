@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.Card-Weather{
+ width: 700px;
+ border-radius: 15px;
+ background-color: #01579b;
+ 
+}
+
+.Headder{
+  background-color: #424242;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.img-container{
+  padding: 15px;
+  color: whitesmoke;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+  gap: 15px;
+}
+
+.list{
+  
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    gap: 30px;
+ 
+}
+
+
+.flex{
+  display: flex;
+
+ 
+}
+
+body{
+  background-image: url(https://o.quizlet.com/vgkMWxIrD78rWVt9hSZIEg.gif);
+  
+}
+.button{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid #008cba; 
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color:  white;
+  color: black;
+}
